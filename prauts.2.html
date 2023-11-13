@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>membuat form</title>
+</head>
+
+<body>
+    <div style="background-color: black;color: white;">
+        <table align="center" cellpadding="5">
+            <tr>
+                <td>dafter karyawan</td>
+                <td>dafter karyawan</td>
+                <td>dafter karyawan</td>
+            </tr>
+
+
+        </table>
+
+    </div>
+    <div style="display: flex;"">
+        <aside style=" margin-left: 500px;">
+        <form action="center" method="POST">
+            <h1>form entery pegaway</h1>
+
+            <table>
+                <tr>
+                    <td> NIK:</td>
+                    <td> <input type="number" name="NIK" placeholder="Enter NIK"></td>
+                </tr>
+                <tr>
+                    <td> Name:</td>
+                    <td> <input type="text" name="name" placeholder="Enter Name"></td>
+                </tr>
+                <tr>
+                    <td> Tempat tanggal lahir:</td>
+                    <td> <input type="text" name="Tempat tanggal lahir" placeholder="Enter"></td>
+                </tr>
+                <tr>
+                    <td> Tanggal lahir:</td>
+                    <td> <input type="date" name="tgl" placeholder="2004-08-24"></td>
+                </tr>
+                <tr>
+                    <td>alamat:</td>
+                    <td><textarea name="description" placeholder="Enter Description" cols="30" rows="5"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Nomor Telepon</td>
+                    <td> <input type="number" name="Nomor Telepon" placeholder="Enter Nomor"></td>
+                </tr>
+                <tr>
+                    <td>Jabatan</td>
+                    <td>
+                        <select name="Jabatan">
+                            <option>Jabatan terbaru</option>
+                            <option>Jajaran Direks</option>
+                            <option>Direktur Utama.</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>status</td>
+                    <td>
+                        <select name="status">
+                            <option>status</option>
+                            <option>Jajaran Direks</option>
+                            <option>Direktur Utama.</option>
+                        </select>
+                    </td>
+
+                </tr>
+                <tr>
+                    <td><input type="submit" name="proses" value="Simpan"
+                            style="box-shadow: 4px 3px 2px black; background-color: blue; color:white;"></td>
+                    <td><input type="reset" name="unproses" value="Batal"
+                            style="box-shadow: 4px 3px 2px black; background-color: red; color:white;"></td>
+                </tr>
+            </table>
+            </aside>
+    </div>
+</body>
+
+</html>
